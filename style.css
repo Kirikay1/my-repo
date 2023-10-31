@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    min-width: 1161px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.header-content {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 0 24px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main {
+    background: #F1F1F1;
+    padding-bottom: 25px;
+    flex: 1 0 auto;
+}
+
+.hr-main {
+    background: var(--text_gray, #A1A6B4);
+}
+
+.main-title {
+    color: var(--black, #121723);
+    font-family: IBM Plex Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px 24px;
+
+}
+
+.sneaker {
+    width: 371px;
+    height: fit-content;
+    background: var(--white, #FFF);
+    border-radius: 12px;
+}
+
+.main-title {
+    margin: 25px 0 24px;
+}
+
+.sneaker__info {
+    border-radius: 0px 0px 12px 12px;
+    margin: 32px 24px;
+
+}
+
+.sneaker__image {
+    width: 370px;
+}
+
+.sneaker__title {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.sneaker__text {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sneaker__info-link {
+    text-decoration: none;
+}
+
+.footer {
+    min-height: 142px;
+    background: var(--black, #121723);
+    flex: 0 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: var(--white, #FFF);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hr--footer {
+    height: 1px;
+    background: rgba(230, 232, 236, 0.40);
+    border: 0;
+}
+
+.footer-text {
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 18px;
+}
